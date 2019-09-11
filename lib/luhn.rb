@@ -23,6 +23,3 @@ module Luhn
         end
     end
 end
-
-
-
