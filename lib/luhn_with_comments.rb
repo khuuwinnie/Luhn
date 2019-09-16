@@ -17,7 +17,6 @@ module Luhn
 
             # Step 3 - If the doubled value is greater than or equal to 10, take the value and subtract 9 from it.
             array << (element-9) if element.to_i > 9
-            end
         end
         # Step 4 - Sum the digits.
         # Step 5 - If the sum is divisible by 10, it's a valid number. Otherwise it's invalid.
