@@ -20,6 +20,6 @@ module Luhn
         end
         # Step 4 - Sum the digits.
         # Step 5 - If the sum is divisible by 10, it's a valid number. Otherwise it's invalid.
-        array.sum % 10 == 0
+        array.sum % 10 == 0 # Boolean value therefore do not need to explicitly say return true/false.
     end
 end
