@@ -12,4 +12,5 @@ module Luhn
             array << (element-9) if element.to_i > 9
         end
     array.sum % 10 == 0        
+    end
 end
